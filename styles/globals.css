@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+header>*>*>a, header>*>*>a:hover{
+  color:white
+}
+
 * {
   box-sizing: border-box;
 }

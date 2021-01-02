@@ -19,8 +19,7 @@ const Layout = (props) => {
         />
         <script src="https://js.stripe.com/v3" />
       </Head>
-      <header >
-        <style jsx>{"a{color:white}"}</style>
+      <header>
         <Nav className="navbar navbar-dark bg-dark">
           <NavItem>
             <Link href="/">
@@ -33,7 +32,7 @@ const Layout = (props) => {
             </Link>
           </NavItem>
           <NavItem >
-            <Link href="register">
+            <Link href="/register">
               <a className="nav-link">Sign Up</a>
             </Link>
           </NavItem>
