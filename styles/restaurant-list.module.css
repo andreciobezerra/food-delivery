@@ -1,0 +1,30 @@
+.card{
+  margin:0 0.5rem 20px 0.5rem;
+  column-count: 3;
+  height: 400px;
+  width: 250px;
+}
+
+.cardImage{
+  height: 200px;
+  border-bottom: 1px solid rgba(0,0,0,.250);
+}
+
+.cardFooter{
+  background-color: white;
+}
+
+@media (max-width:576px){
+  .card{
+  margin:0 auto 20px;
+  column-count: 2;
+}
+}
+
+@media (min-width:1500px){
+  .card{
+    margin: 0 auto 20px;
+    width: 350px;
+    height: 500px;
+  }
+}

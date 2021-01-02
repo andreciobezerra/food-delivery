@@ -38,7 +38,7 @@ const Layout = (props) => {
           </NavItem>
         </Nav>
       </header>
-      <Container>
+      <Container fluid>
         {/* eslint-disable-next-line react/prop-types*/}
         {props.children}
       </Container>

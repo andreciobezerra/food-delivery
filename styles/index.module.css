@@ -1,0 +1,26 @@
+.search {
+  margin: 20px 10px;
+  width: 50vw;
+}
+
+.searchInput{
+  border: 1px solid rgba(0,0,0,.2)
+}
+
+.searchInput:focus{
+  box-shadow: none;
+  border-color:rgba(0,0,0,.2);
+}
+
+@media (max-width:768px){
+  .search{
+    width: 75vw;
+  }
+}
+
+@media (max-width:576px){
+  .search{
+    margin-left: 5px;
+    width: 80vw;
+  }
+}
